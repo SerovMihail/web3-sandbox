@@ -1,0 +1,10 @@
+{
+  "watch": [
+    "scripts"
+  ],
+  "ext": "ts,json",
+  "ignore": [
+    "src/**/*.spec.ts"
+  ],
+  "exec": "npx ts-node ./scripts/zapper/index.ts"
+}
