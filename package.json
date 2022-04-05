@@ -1,16 +1,20 @@
 {
   "name": "web3-sandbox",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "main.ts",
   "type": "module",
   "scripts": {
-    "run:zapper": "nodemon ./scripts/zapper/index.ts"
+    "serve": "nodemon ./main.ts",
+    "run:zapper": "nodemon ./scripts/zapper/index.ts",
+    "run:zerion": "nodemon ./scripts/zerion/index.ts"
   },
   "license": "MIT",
   "dependencies": {
+    "@types/node": "^17.0.23",
     "axios": "^0.26.1",
     "node-fetch": "^3.2.3",
     "nodemon": "^2.0.15",
+    "socket.io-client": "^2.3.0",
     "ts-node": "^10.7.0",
     "typescript": "^4.6.3"
   }
