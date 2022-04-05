@@ -8,11 +8,13 @@
 
 
 
-## Questions
+## Questions and Answers
 
 * Нужны примеры кода запросом балансов на адресе
+  * 
 * Нужны примеры кода запросом списка транзакций на адресе
 * Нужно добавить typescript интерфейсы для ответов на API методы используемые в примерах кода
 * Можно ли работать с Testnet сетями блокчейой Ethereum(Rinkeby например) и Polygon (Mumbai)?
-  * Упоминания "testnet" в документации нет. 
+  * Rinkeby is an Ethereum test network that allows for blockchain development testing before deployment on Mainnet, the main Ethereum network
+  * 
   * 

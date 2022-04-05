@@ -6,5 +6,5 @@
   "ignore": [
     "src/**/*.spec.ts"
   ],
-  "exec": "npx ts-node ./scripts/zapper/index.ts"
+  "exec": "npx node --loader ts-node/esm"
 }
