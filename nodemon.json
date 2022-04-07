@@ -2,9 +2,9 @@
   "watch": [
     "."
   ],
-  "ext": "ts,json",
+  "ext": "ts",
   "ignore": [
-    "src/**/*.spec.ts"
+    "./**/*.json"
   ],
   "exec": "npx node --loader ts-node/esm --experimental-specifier-resolution=node"
 }

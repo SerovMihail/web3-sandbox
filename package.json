@@ -6,7 +6,8 @@
   "scripts": {
     "serve": "nodemon ./main.ts",
     "run:zapper": "nodemon ./scripts/zapper/index.ts",
-    "run:zerion": "nodemon ./scripts/zerion/index.ts"
+    "run:zerion": "nodemon ./scripts/zerion/index.ts",
+    "run:parse-tokenlist": "nodemon ./scripts/parse-tokenlist/index.ts"
   },
   "license": "MIT",
   "dependencies": {
